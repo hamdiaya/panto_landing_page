@@ -112,7 +112,7 @@ const products: ProductsType = {
   ],
 };
 
-const bestSellingSection = () => {
+const BestSellingSection = () => {
   const [activeCategory, setActiveCategory] = useState("Chair");
 
   const categories = Object.keys(products);
@@ -173,4 +173,4 @@ const bestSellingSection = () => {
   );
 };
 
-export default bestSellingSection;
+export default BestSellingSection;

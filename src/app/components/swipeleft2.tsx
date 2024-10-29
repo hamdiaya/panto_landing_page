@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
 
-const swipeleft2 = ({ number }: { number: number }) => {
+const Swipeleft2 = ({ number }: { number: number }) => {
   return (
     <div>
       <div className="hidden lg:block ">
@@ -45,4 +45,4 @@ const swipeleft2 = ({ number }: { number: number }) => {
   );
 };
 
-export default swipeleft2;
+export default Swipeleft2;

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Rating } from "primereact/rating";
 
-const testimonialCard = ({
+const TestimonialCard = ({
   bg,
   profile,
   title,
@@ -88,4 +88,4 @@ const testimonialCard = ({
   );
 };
 
-export default testimonialCard;
+export default TestimonialCard;

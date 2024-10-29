@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { FaFacebook ,FaInstagram,FaTwitter} from "react-icons/fa";
 
-const footerSection = () => {
+const FooterSection = () => {
   return (
     <footer className="w-full bg-[#F7F7F7] lg:px-[100px] md:px-[60px] px-[30px] py-[56px]">
       <div className="flex justify-between pb-[56px]">
@@ -77,4 +77,4 @@ const footerSection = () => {
   );
 };
 
-export default footerSection;
+export default FooterSection;

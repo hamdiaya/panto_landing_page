@@ -1,7 +1,7 @@
 import React from 'react'
 import WhyChoosingUsCard from './whyChoosingUsCard'
 
-const whyChoosingUs = () => {
+const WhyChoosingUs = () => {
   return (
     <div>
         <div className='mt-5 mb-5 font-bold lg:text-4xl md:text-3xl sm:text-2xl text-xl md:px-[70px] px-[30px] '>Why Choosing Us ?</div>
@@ -15,4 +15,4 @@ const whyChoosingUs = () => {
   )
 }
 
-export default whyChoosingUs
+export default WhyChoosingUs

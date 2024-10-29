@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import NavBar from "./navBar";
 import SearchBar from "./searchBar";
-const main = () => {
+const Main = () => {
   return (
     <div className="relative h-screen">
       <div className="absolute inset-0 -z-10 ">
@@ -29,4 +29,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Main;

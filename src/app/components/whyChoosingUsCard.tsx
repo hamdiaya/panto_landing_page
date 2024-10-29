@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import { HiArrowLongRight } from "react-icons/hi2";
 
-const whyChoosingUsCard = ({title,description}:{title:String,description:String}) => {
+const WhyChoosingUsCard = ({title,description}:{title:String,description:String}) => {
   return (
     <div className='relative flex flex-col ' >
         <div className='lg:text-[24px] sm:text-[20px] font-bold mb-[20px] ' >
@@ -24,4 +24,4 @@ const whyChoosingUsCard = ({title,description}:{title:String,description:String}
   )
 }
 
-export default whyChoosingUsCard
+export default WhyChoosingUsCard

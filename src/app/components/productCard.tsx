@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Rating } from "primereact/rating";
 import { IoIosAddCircle } from "react-icons/io";
-const productCard = ({
+const ProductCard = ({
   img,
   category,
   title,
@@ -51,4 +51,4 @@ const productCard = ({
   );
 };
 
-export default productCard;
+export default ProductCard;

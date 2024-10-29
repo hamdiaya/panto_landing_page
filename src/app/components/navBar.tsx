@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { GiShoppingBag } from "react-icons/gi";
 import MobileBurgerMenu from "./mobileBurgerMenu";
-const navBar = () => {
+const NavBar = () => {
   return (
     <div className="text-white flex justify-between md:pt-[40px] md:px-[80px] pt-[20px] px-[40px] ">
       <h1 className="font-bold lg:text-3xl text-2xl">Panto</h1>
@@ -37,4 +37,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;

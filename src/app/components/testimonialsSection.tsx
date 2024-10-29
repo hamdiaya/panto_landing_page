@@ -48,7 +48,7 @@ const reviews = [
     rating: 5,
   },
 ];
-const testimonialsSections = () => {
+const TestimonialsSections = () => {
   return (
     <div className="min-h-screen bg-white place-items-center place-content-center">
       <h1 className="text-orange-500 uppercase tracking-wide font-semibold lg:text-[14px] sm:text-[13px]">
@@ -95,4 +95,4 @@ const testimonialsSections = () => {
   );
 };
 
-export default testimonialsSections;
+export default TestimonialsSections;

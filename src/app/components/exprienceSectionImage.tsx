@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const exprienceSectionImage = () => {
+const ExprienceSectionImage = () => {
   return (
     <div className="relative ">
       <div className=" relative w-fit ">
@@ -18,4 +18,4 @@ const exprienceSectionImage = () => {
   );
 };
 
-export default exprienceSectionImage;
+export default ExprienceSectionImage;
