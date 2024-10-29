@@ -123,8 +123,9 @@ const BestSellingSection = () => {
       </div>
       <div className=" bg-[#EEEEEE] text-black w-fit flex rounded-full mt-5 mb-5 ">
         <div className="p-[6px]  ">
-          {categories.map((category) => (
+          {categories.map((category,index) => (
             <button
+            key={index}
               onClick={() => setActiveCategory(category)}
               className={`sm:px-[17px] sm:py-[7px] px-[10px] py-[5px]  text-[14px] md:text-base rounded-full ${
                 activeCategory === category ? "bg-white" : "bg-[#EEEEEE]"
