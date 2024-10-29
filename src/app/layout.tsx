@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/bundle';
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "./fonts/Gilroy-Black.ttf",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const font2 = localFont({
+  src: "./fonts/Gilroy-Medium.ttf",
+  variable: "--font-geist-sans",
   weight: "100 900",
 });
 
@@ -26,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${font2.variable}  antialiased`}
       >
         {children}
       </body>

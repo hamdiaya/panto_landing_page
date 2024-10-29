@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+/* Style for the custom navigation buttons */
+.custom-swiper-button {
+  
+}
+
+.custom-swiper-button-prev {
+  left: 15px; /* Move the button to the left */
+}
+
+.custom-swiper-button-next {
+  right: 15px; /* Move the button to the right */
+}
