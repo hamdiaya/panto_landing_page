@@ -158,6 +158,7 @@ const BestSellingSection = () => {
           {products[activeCategory].map((product: Product) => (
             <SwiperSlide key={product.id}>
               <ProductCard
+                key={product.id}
                 img={product.imageUrl}
                 title={product.name}
                 category={activeCategory}

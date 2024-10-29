@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons for menu
+import { FaBars} from 'react-icons/fa'; // Import icons for menu
 
 export default function MobileBurgerMenu() {
   const [isOpen, setIsOpen] = useState(false);

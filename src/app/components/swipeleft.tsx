@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
+import {  HiArrowLongRight } from "react-icons/hi2";
 
 const Swipeleft = ({ number }: { number: number }) => {
   return (

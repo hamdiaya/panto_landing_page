@@ -76,7 +76,7 @@ const TestimonialsSections = () => {
             1024: { slidesPerView: 3 ,spaceBetween: 20 },
           }}
         >
-          {reviews.map((review: any) => (
+          {reviews.map((review) => (
             <SwiperSlide key={review.id}>
               <TestimonialCard
                 bg={review.bg}
